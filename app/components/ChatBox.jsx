@@ -11,7 +11,7 @@ import { io } from 'socket.io-client'
 import Lottie from 'react-lottie'
 
 
-const ENDPOINT = "http://localhost:5000"
+
 var socket, selectedChatCompare;
 
 const ChatBox = ({ fetchAgain, setFetchAgain }) => {
